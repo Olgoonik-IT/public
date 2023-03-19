@@ -66,7 +66,7 @@ if ($liveversion -ne $currentversion) {
 write-host "Script has been updated, please download the latest version from $liveuri" -ForegroundColor Red
 }
 }
-Get-ScriptVersion -liveuri "https://raw.githubusercontent.com/andrew-s-taylor/public/main/De-Bloat/Deploy-DeBloat-Application.ps1"
+Get-ScriptVersion -liveuri "https://raw.githubusercontent.com/Olgoonik-IT/public/main/De-Bloat/Deploy-DeBloat-Application.ps1"
 
 function Get-AuthToken {
 
